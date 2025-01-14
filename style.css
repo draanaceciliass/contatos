@@ -1,0 +1,52 @@
+body{
+    overflow: hidden;
+    background-image: url('./imagens/fundo.jpeg');
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    background-position: center; 
+    display: flex;
+    margin: 0;
+    padding: 0;
+    align-items: center;
+    justify-content: center;
+}
+#contacts{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    z-index: 1;
+    top: -315px;
+    height: 255px;
+}
+ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+li{
+    display: flex;
+    justify-content: center;
+    width: 250px;
+    margin: 10px;
+    padding: 8.5px;
+    border: black solid 1.75px;
+    border-radius: 100px;
+    font-size: 22.5px;
+    font-family: 'Nunito';
+    font-weight: bold;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+#wpp{
+    background: linear-gradient(to right, #25D366, #128C7E);
+}
+#mail{
+    background: linear-gradient(to right, #155E95, #6A80B9);
+}
+i{
+    padding-right: 2px;
+    color: black;
+}
